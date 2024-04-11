@@ -1,0 +1,172 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+}
+
+
+.bginfo {
+
+  background-color: black;
+  color: white;
+}
+
+.bginfo span {
+
+
+  color: rgb(212, 205, 191);
+}
+
+
+
+
+/* DownloadsComponent.css */
+
+.icon {
+  margin-right: 10px;
+  float: left;
+  color: gold;
+  /* Change the icon color as needed */
+  font-size: 24px;
+  /* Adjust the icon size */
+}
+
+.downloadicon {
+  margin-right: 10px;
+  float: left;
+  color: white;
+  /* Change the icon color as needed */
+  font-size: 24px;
+  /* Adjust the icon size */
+}
+
+.download-btn {
+  margin-left: 20px;
+  display: inline-block;
+  padding: 10px 20px;
+  width: 150px;
+  background-color: gold;
+  /* Button background color */
+  color: #ffffff;
+  /* Button text color */
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #0056b3;
+  text-decoration: none;
+  /* Hover background color */
+}
+
+/* NavBar */
+.mainbar ul li {
+  width: 230px;
+  margin: 3px;
+  padding: 3px;
+}
+
+.mainbar ul li a {
+  text-decoration: none;
+}
+
+.active,
+.navbar-nav .nav-item:hover {
+  background-color: gold;
+  border-radius: 3px;
+}
+
+
+
+.submenu {
+  display: none;
+  z-index: 1000;
+
+}
+
+.navbar-nav .nav-item:hover .submenu {
+  display: block;
+  position: absolute;
+  margin-top: 0px;
+  margin-left: -15px;
+  background-color: #fff;
+
+  border: 1px solid #ccc;
+
+  border-radius: 0 0 5px 5px;
+
+
+
+}
+
+
+.navbar-nav .nav-item:hover .submenu ul {
+  display: block;
+  margin: 5px;
+}
+
+.navbar-nav .nav-item:hover .submenu ul li {
+  width: 250px;
+  padding: 5px;
+  border-bottom: 1px dotted #fff;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+
+.submenu ul {
+  list-style-type: none;
+  /* Remove default list styling */
+  padding: 5px;
+  margin: 0;
+}
+
+
+
+.submenu ul li a {
+  color: #333;
+  /* Link color in dropdown */
+  text-decoration: none;
+  /* Remove underline from links */
+}
+
+.submenu ul li a:hover {
+  color: #007bff;
+  /* Change link color on hover */
+}
+
+.welcome-content {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.title {
+  margin-left: 0px;
+  margin-right: 100px;
+  width: 900px;
+  border-right: 3px solid gold;
+  padding-right: 30px;
+
+}
+
+.title span {
+
+  float: right;
+  color: gold;
+
+}
+
+.text {
+
+  font-size: 17px;
+  color: #ccc;
+
+}
+
+.single-item {
+  display: flex;
+}
